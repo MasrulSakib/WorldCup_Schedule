@@ -8,6 +8,7 @@ body {
 .upper-background {
     display: flex;
     position: relative;
+    margin-top: 50px;
     background-color: black;
     width: 1321px;
     height: 646px;
@@ -25,7 +26,23 @@ body {
 
 .upper-panel h2 {
     font-size: 70px;
+    line-height: 80px;
 
+}
+
+.upper-panel p {
+    padding-bottom: 20px;
+}
+
+.link-button {
+    text-decoration: none;
+    background: #DD0000;
+    border-radius: 5px;
+    width: 187px;
+    height: 56px;
+    padding: 16px 25px;
+    color: white;
+    gap: 10px;
 }
 
 #border-img {
@@ -36,4 +53,56 @@ body {
     justify-content: flex-end;
     width: 581px;
     height: 613px;
+}
+
+.mid-background {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 15%;
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.mid-panel nav {
+    display: flex;
+    position: relative;
+    right: 12px;
+    justify-content: center;
+}
+
+.btn-color {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    text-decoration: none;
+    text-align: center;
+    width: 252px;
+    height: 64px;
+    border-radius: 10px;
+    padding: 25px 40px;
+}
+
+.btn-color a {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#white {
+    text-decoration: none;
+    background: white;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#red {
+    text-decoration: none;
+    background: #DD0000;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
 }
