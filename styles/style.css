@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=Kalam:wght@700&family=Oxygen:wght@300;400&family=Poppins:wght@500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+}
+
+.upper-background {
+    display: flex;
+    position: relative;
+    background-color: black;
+    width: 1321px;
+    height: 646px;
+    border-radius: 30px;
+    left: 15%;
+}
+
+.upper-panel {
+    padding: 35px;
+    color: white;
+    width: 531px;
+    height: 424px;
+
+}
+
+.upper-panel h2 {
+    font-size: 70px;
+
+}
+
+#border-img {
+    display: flex;
+    position: relative;
+    left: 90px;
+    top: 33px;
+    justify-content: flex-end;
+    width: 581px;
+    height: 613px;
+}
