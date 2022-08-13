@@ -55,11 +55,19 @@ body {
     height: 613px;
 }
 
+.mid-panels {
+    display: grid;
+    grid-template-columns: repeat(2, 631px);
+    row-gap: 10px;
+
+
+}
+
 .mid-background {
     display: flex;
     justify-content: flex-start;
     position: relative;
-    left: 15%;
+    left: 44%;
     width: 312px;
     height: 312px;
     background: #161616;
@@ -105,4 +113,20 @@ body {
     color: white;
     font-weight: 500;
     font-size: 20px;
+}
+
+.right-panel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;
+    padding-top: 38px;
+    row-gap: 15px;
+
+}
+
+.inner-panel {
+    width: 312px;
+    height: 362px;
+    border: 1px solid gray;
+    border-radius: 5px;
 }
