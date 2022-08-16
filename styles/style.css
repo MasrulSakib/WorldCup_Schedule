@@ -3,6 +3,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     align-items: center;
+    margin: 0;
 }
 
 .upper-background {
@@ -127,6 +128,64 @@ body {
 .inner-panel {
     width: 312px;
     height: 362px;
+    border: 1px solid rgba(196, 194, 194, 0.918);
+    border-radius: 10px;
+}
+
+.logo {
     border: 1px solid gray;
     border-radius: 5px;
+    margin: 5px;
+}
+
+.right-panel h3,
+p {
+    margin: 5px;
+
+}
+
+#logo-design {
+    display: flex;
+    flex-direction: row;
+    font-family: initial;
+    font-style: normal;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+
+#logo-design div {
+    margin-right: 25px;
+}
+
+.finishing-touch {
+    background-color: black;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#alignment {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#alignment p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 20px;
+    padding-bottom: 100px;
+}
+
+#alignment a {
+    text-decoration: none;
+    color: #B9B9B9;
+}
+
+.finishing-touch h2 {
+    font-size: 30px;
+    padding: 70px;
 }
