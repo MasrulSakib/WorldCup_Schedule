@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <script src="https://kit.fontawesome.com/9032eb25e0.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=Kalam:wght@700&family=Oxygen:wght@300;400&family=Poppins:wght@500;600;700&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            align-items: center;
+            margin: 0;
+        }
+
+        .upper-background {
+            display: flex;
+            position: relative;
+            margin-top: 50px;
+            background-color: black;
+            width: 1321px;
+            height: 646px;
+            border-radius: 30px;
+            left: 15%;
+        }
+
+        .upper-background:hover {
+            background-color: #B9B9B9;
+            border-radius: 30px;
+            transition: 0.5s ease-in;
+            border: 1px solid black;
+        }
+
+        .upper-panel {
+            padding: 35px;
+            color: white;
+            width: 531px;
+            height: 424px;
+
+        }
+
+        .upper-background:hover .upper-panel {
+            color: #161616;
+
+        }
+
+        .upper-panel h2 {
+            font-size: 70px;
+            line-height: 80px;
+
+        }
+
+        .upper-panel p {
+            padding-bottom: 20px;
+        }
+
+        .link-button {
+            text-decoration: none;
+            background: #DD0000;
+            border-radius: 5px;
+            width: 187px;
+            height: 56px;
+            padding: 16px 25px;
+            color: white;
+            gap: 10px;
+        }
+
+        #border-img {
+            display: flex;
+            position: relative;
+            left: 90px;
+            top: 33px;
+            justify-content: flex-end;
+            width: 581px;
+            height: 613px;
+        }
+
+        .mid-panels {
+            display: grid;
+            grid-template-columns: repeat(2, 631px);
+            row-gap: 10px;
+
+
+        }
+
+        .mid-background {
+            display: flex;
+            justify-content: flex-start;
+            position: relative;
+            left: 44%;
+            width: 312px;
+            height: 312px;
+            background: #161616;
+            border-radius: 10px;
+            margin-top: 40px;
+        }
+
+        .mid-panel nav {
+            display: flex;
+            position: relative;
+            right: 12px;
+            justify-content: center;
+        }
+
+        .btn-color {
+            display: grid;
+            grid-template-rows: repeat(3, 1fr);
+            text-decoration: none;
+            text-align: center;
+            width: 252px;
+            height: 64px;
+            border-radius: 10px;
+            padding: 25px 40px;
+        }
+
+        .btn-color a {
+            border-radius: 10px;
+            padding: 10px;
+            margin: 20px;
+        }
+
+        #white {
+            text-decoration: none;
+            background: white;
+            color: black;
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        #red {
+            text-decoration: none;
+            background: #DD0000;
+            color: white;
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        .right-panel {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 15px;
+            padding-top: 38px;
+            row-gap: 15px;
+
+        }
+
+        .inner-panel {
+            width: 312px;
+            height: 362px;
+            border: 1px solid rgba(196, 194, 194, 0.918);
+            border-radius: 10px;
+        }
+
+        .logo {
+            border: 1px solid gray;
+            border-radius: 5px;
+            margin: 5px;
+        }
+
+        .right-panel h3,
+        p {
+            margin: 5px;
+
+        }
+
+        #logo-design {
+            display: flex;
+            flex-direction: row;
+            font-family: initial;
+            font-style: normal;
+            margin-left: 5px;
+            margin-top: 30px;
+        }
+
+        #logo-design div {
+            margin-right: 25px;
+        }
+
+        .finishing-touch {
+            background-color: black;
+            color: #FFFFFF;
+            text-align: center;
+        }
+
+        #alignment {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            flex-direction: row;
+        }
+
+        #alignment p {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            margin: 20px;
+            padding-bottom: 100px;
+        }
+
+        #alignment a {
+            text-decoration: none;
+            color: #B9B9B9;
+        }
+
+        .finishing-touch h2 {
+            font-size: 30px;
+            padding: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <main>
+            <section>
+                <div class="upper-background">
+                    <div class="upper-panel">
+                        <h2>The Greatest show on the earth</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati minus ipsa quos. Iusto
+                            quaerat
+                            fuga, iure molestias tempora fugiat saepe maxime deserunt assumenda ullam nam consequatur
+                            deleniti
+                            autem mollitia vero?</p>
+                        <a class="link-button" target="_blank" href="https://www.livescore.com/en/">Watch
+                            Live <i class="fa-thin fa-greater-than"></i></a>
+                    </div>
+                    <div id="border-img">
+                        <img src="assets/Banner Image.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="mid-panels">
+                    <div class="mid-background">
+                        <div class="mid-panel">
+                            <nav>
+                                <form class="btn-color">
+                                    <a id="red" target="_blank" href="https://www.livescore.com/en/">Upcoming
+                                        match</a>
+                                    <a id="white" target="_blank" href="https://www.livescore.com/en/">All
+                                        Group</a>
+                                    <a id="white" target="_blank" href="https://www.livescore.com/en/">Blog</a>
+                                </form>
+                            </nav>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </header>
+</body>
+
+</html>

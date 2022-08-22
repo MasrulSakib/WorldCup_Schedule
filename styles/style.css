@@ -17,11 +17,23 @@ body {
     left: 15%;
 }
 
+.upper-background:hover {
+    background-color: #B9B9B9;
+    border-radius: 30px;
+    transition: 0.5s ease-in;
+    border: 1px solid black;
+}
+
 .upper-panel {
     padding: 35px;
     color: white;
     width: 531px;
     height: 424px;
+
+}
+
+.upper-background:hover .upper-panel {
+    color: #161616;
 
 }
 
