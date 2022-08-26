@@ -1,3 +1,4 @@
+/* import google font */
 @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=Kalam:wght@700&family=Oxygen:wght@300;400&family=Poppins:wght@500;600;700&display=swap');
 
 body {
@@ -6,6 +7,7 @@ body {
     margin: 0;
 }
 
+/* top view design */
 .upper-background {
     display: flex;
     position: relative;
@@ -17,6 +19,7 @@ body {
     left: 15%;
 }
 
+/* top view hover  */
 .upper-background:hover {
     background-color: #B9B9B9;
     border-radius: 30px;
@@ -47,6 +50,7 @@ body {
     padding-bottom: 20px;
 }
 
+/* button design for top view */
 .link-button {
     text-decoration: none;
     background: #DD0000;
@@ -68,6 +72,7 @@ body {
     height: 613px;
 }
 
+/* mid view design */
 .mid-panels {
     display: grid;
     grid-template-columns: repeat(2, 631px);
@@ -95,6 +100,7 @@ body {
     justify-content: center;
 }
 
+/* mid left button design */
 .btn-color {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
@@ -128,6 +134,7 @@ body {
     font-size: 20px;
 }
 
+/* mid right design */
 .right-panel {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -169,10 +176,12 @@ p {
     margin-right: 25px;
 }
 
+/* footer design */
 .finishing-touch {
     background-color: black;
     color: #FFFFFF;
     text-align: center;
+    margin-top: 100px;
 }
 
 #alignment {
@@ -200,4 +209,33 @@ p {
 .finishing-touch h2 {
     font-size: 30px;
     padding: 70px;
+}
+
+/* blog panal/2nd page design */
+#blog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#blog img {
+
+    padding: 20px;
+    width: 93.04px;
+    height: 56.18px;
+}
+
+.blog-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 312px;
+    height: 242px;
+    border: 1px solid rgba(196, 194, 194, 0.918);
+    border-radius: 10px;
+}
+
+.blog-text span {
+    color: #4D4D4D;
 }
