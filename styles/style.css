@@ -3,7 +3,6 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    align-items: center;
     margin: 0;
 }
 
@@ -238,4 +237,196 @@ p {
 
 .blog-text span {
     color: #4D4D4D;
+}
+
+.bottom-button {
+    display: none;
+}
+
+/* for tablet device */
+@media only screen and (min-width: 784px) and (max-width: 992px) {
+
+    .upper-background {
+        width: 734px;
+        height: 398px;
+        justify-content: center;
+        left: 20px;
+    }
+
+    .upper-panel h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .upper-panel p {
+        font-size: 14px;
+        height: 30px;
+        width: 300px;
+        overflow-y: scroll;
+        margin-bottom: 40px;
+    }
+
+    #border-img {
+        width: 323px;
+        height: 340px;
+        left: 0.5px;
+        top: 57px;
+    }
+
+    .mid-panels {
+
+        grid-template-columns: repeat(1, 350px);
+        align-items: center;
+        background-color: none;
+    }
+
+    .mid-panel nav {
+        justify-content: flex-end;
+    }
+
+
+    .mid-background {
+        background: none;
+    }
+
+    .btn-color {
+        position: relative;
+        grid-template-columns: repeat(3, 250px);
+        width: 230px;
+        height: 64px;
+        padding: 25px 40px;
+        justify-content: center;
+        left: 90px;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+
+    .btn-color a {
+        grid-template-columns: repeat(3, 1fr);
+        background: #FFFFFF;
+        border: 1px solid #E8E8E8;
+    }
+
+    .right-panel {
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 62px;
+        margin-top: -200px;
+        top: 100px;
+
+    }
+
+    .bottom-button {
+        display: inline;
+        text-decoration: none;
+        background: #DD0000;
+        border-radius: 5px;
+        width: 187px;
+        height: 56px;
+        padding: 16px 25px;
+        color: white;
+        gap: 10px;
+        position: relative;
+        left: 330px;
+        top: 50px;
+        justify-content: center;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 784px) {
+
+    .upper-background {
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        width: 334px;
+        height: 472px;
+        justify-content: center;
+        align-items: center;
+        left: 53px;
+    }
+
+    .upper-panel h2 {
+        display: block;
+        position: relative;
+        font-size: 20px;
+        line-height: 33px;
+        text-align: center;
+        bottom: 35px;
+    }
+
+    .link-button {
+        position: relative;
+        left: 190px;
+        top: -45px;
+    }
+
+    .upper-panel p {
+        position: relative;
+        font-size: 14px;
+        height: 30px;
+        width: 300px;
+        overflow-y: scroll;
+        margin-bottom: 40px;
+        line-height: 24px;
+        left: 110px;
+        bottom: 40px;
+        text-align: center;
+    }
+
+    #border-img {
+        width: 233px;
+        height: 245px;
+        left: 200px;
+        top: -267px;
+    }
+
+    .mid-panels {
+
+        grid-template-columns: repeat(1, 350px);
+        align-items: center;
+        background-color: none;
+    }
+
+    .mid-panel nav {
+        justify-content: flex-end;
+    }
+
+
+    .mid-background {
+        background: none;
+    }
+
+    .btn-color {
+        position: relative;
+        grid-template-rows: 120px, 100px, 100px;
+        padding: 25px 40px;
+        justify-content: center;
+        align-items: center;
+        right: 28%;
+        top: 40%;
+    }
+
+    .btn-color a {
+        grid-template-rows: repeat(3, 1fr);
+        background: #FFFFFF;
+        border: 1px solid #E8E8E8;
+    }
+
+    .right-panel {
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 62px;
+        margin-top: -35px;
+        top: 100px;
+
+    }
+
+    #alignment {
+        flex-direction: column;
+    }
+
+    #alignment p {
+        padding-bottom: 10px;
+    }
+
+
 }
