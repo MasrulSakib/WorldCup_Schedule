@@ -333,6 +333,7 @@ p {
     }
 }
 
+/* for smartphone */
 @media only screen and (max-width: 784px) {
 
     .upper-background {
